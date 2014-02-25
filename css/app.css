@@ -26,8 +26,9 @@ body {
 */  }
 }
 .jumbotron {
-  background: #040506 url('../images/Blu-Ray-Background-Image.jpg?v1') no-repeat bottom center;
+  background: #040506 url('../images/Blu-Ray-Background-Image-2.jpg?v1') no-repeat bottom center;
   color: #fff;
+  min-height: 450px;
 }
 
 section {
