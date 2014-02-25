@@ -8,15 +8,16 @@ id: home
 <div class="jumbotron">
   <div class="container">
     <h1>Pick-your-price. Share &amp; remix.</h1>
-    <p>Free downloads. Free copying & sharing with your friends*. Full length streaming. From mp3 to audiophile and 5.1 Surround. Download, CD, Music DVD and Music Blu-ray. Worldwide distribution.</p>
+    <p>Free downloads. Free copying & sharing with your friends*. Full length streaming. From mp3 to audiophile and 5.1 Surround. Download, CD, Music DVD and Music Blu-ray. Buy here or at all major retailers worldwide.</p>
     <p>Welcome to labelzero.com.</p>
   <!-- <p><a class="btn btn-primary btn-lg" role="button">Learn more »</a></p> -->
   </div>
 </div>
 
-<div class="container">
+<a class="anchor" id="music"></a>
+<section class="container">
   <div id="covers" class="covers center-block">
     {% for post in site.posts %}<span class="cover"><a href="{{post.store}}" title="{{ post.title }}"><img width=150 height=150 class="img-thumbnail img-responsive" src="{{post.cover}}" /></a></span>{% endfor %}
   </div>
-</div>
+</section>
 

@@ -29,8 +29,11 @@ body {
   background: #040506 url('../images/Blu-Ray-Background-Image-2.jpg?v1') no-repeat bottom center;
   color: #fff;
   min-height: 450px;
+  margin-bottom: 0;
 }
-
+section:first-of-type {
+/*  margin-top: 30px;*/
+}
 section {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -125,4 +128,10 @@ footer ul>li:last-child {
 }
 .covers {
   max-width: 940px;
+}
+a.anchor {
+  display: block;
+  position: relative;
+  top: -51px;
+  visibility: hidden;
 }
