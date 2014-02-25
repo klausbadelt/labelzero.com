@@ -112,11 +112,12 @@ footer ul>li:last-child {
     margin-left: 0px;
   }
 }
-.cover img {
-/*  max-width: 150px;*/
+.cover {
+  margin-right: 10px;
+  line-height: 130px;
 }
 .covers {
-  max-width: 940px;
+  text-align: center;
 }
 a.anchor {
   display: block;
