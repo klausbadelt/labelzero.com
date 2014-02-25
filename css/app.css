@@ -8,28 +8,20 @@ body {
   color: transparent;
   background: url('../images/logo-v5.svg') no-repeat;
   background-size: contain;
-  background-repeat: none;
-  width: 300px;
+  width: 200px;
   height: 28px;
   margin: 11px 20px 0 15px;
   padding: 0;
-*/}
+}
 a.navbar-brand:hover {
   opacity: 0.7;
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .navbar > .container .navbar-brand {
-/*    background: url('../images/logo-v3-gray-35h@2x.png') no-repeat;
-    background-image: url('../images/logo-v3-gray-35h.svg');
-    background-size: contain;
-*/  }
 }
 .jumbotron {
   background: #040506 url('../images/Blu-Ray-Background-Image-2.jpg?v1') no-repeat bottom center;
   color: #fff;
   min-height: 450px;
   margin-bottom: 0;
+  padding-bottom: 180px;
 }
 section {
   padding-top: 40px;
