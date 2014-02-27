@@ -1,5 +1,3 @@
 name: labelzero.com
 markdown: redcarpet
 pygments: true
-social: false
-offline: false
