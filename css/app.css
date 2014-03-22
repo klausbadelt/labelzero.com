@@ -22,7 +22,7 @@ a.navbar-brand:hover {
   color: #fff;
   min-height: 450px;
   margin-bottom: 0;
-  padding-bottom: 100px;
+/*  padding-bottom: 100px;*/
 }
 .jumbotron .btn {
   margin-top: 15px;
@@ -119,6 +119,10 @@ footer ul>li:last-child {
 .cover {
   margin-right: 10px;
   line-height: 130px;
+}
+
+#covers {
+  min-height: 600px;
 }
 .covers {
   text-align: center;
