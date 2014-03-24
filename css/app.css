@@ -45,7 +45,6 @@ section:nth-of-type(3n) a {
 section:last-of-type {
 /*  min-height: 100vh; */
 }
-
 footer {
   color: #888;
   background-color: #f8f8f8;
@@ -116,7 +115,7 @@ footer ul>li:last-child {
     margin-left: 0px;
   }
 }
-.cover {
+.coverthumb {
   margin-right: 10px;
   line-height: 130px;
 }
@@ -135,4 +134,10 @@ a.anchor {
 }
 .jumbotron .btn {
   margin-top: 15px;
+}
+
+/* album page */
+#player .hastracklist.smallartwork #nonartarea, .hastracklist.noartwork #nonartarea {
+  padding-bottom: 15px;
+  border: none;
 }

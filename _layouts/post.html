@@ -1,19 +1,63 @@
 ---
 layout: bootstrap
 ---
-<div class="container">
-  <h1 class="page-header">{{ page.title }}</h1>
+<div class="container release">
+  <h1 class="page-header">{{ page.title }} <small>by {{ page.artist }}</small></h1>
   <div class="row">
-    <div class="col-md-8">
-      <article>
-        <p class="meta"><small>Released on {{ page.date | date_to_string }}</small>&nbsp;
-        {{ content }}
-                
-      </article>
+    <div class="col-md-4">
+      <p class="cover">
+        <a href="{{ page.full_art_url }}" data-toggle="modal" data-target="#coverModal">
+          <img src="{{ page.large_art_url}}" class="img-thumbnail img-responsive">
+        </a>
+      </p>
+      <div class="links">
+        <p>
+        Immediate download in the high-quality format of your choice (MP3, FLAC, and more). Paying supporters also get unlimited mobile access using the free listening app.</p>
+        <p>
+          <a href="{{ page.bc_url }}" class="btn btn-primary btn-lg" role="button">Buy now</a> <span class="text-muted">Name your price</span>          
+        </p>
+        <p>
+          Also available:
+        </p>
+        <p>
+          <b>Digital:</b>&nbsp;
+          {% if page.itunes_url %}<a href="{{ page.itunes_url }}">{% endif %}iTunes{% if page.itunes_url %}</a>{% endif %} | 
+          {% if page.amazon_url %}<a href="{{ page.amazon_url }}">{% endif %}Amazon{% if page.amazon_url %}</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=labelzerocom-20&l=as2&o=1&a=B00IRXCD9I" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />{% endif %} and many others
+          <br />
+          <b>Physical:</b>&nbsp;
+          <a href="{{ page.cd_url }}">CD</a> | 
+          <a href="{{ page.dvd_url }}">DVD</a> | 
+          <a href="{{ page.dvd_pal_url }}">DVD (PAL)</a> | 
+          <a href="{{ page.bd_url }}">Blu-ray</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <iframe style="border: 0; width: 360px; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/album={{ page.album_id }}/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/" seamless>
+        <a href="{{ page.bc_url }}">{{ page.title }} by {{ page.artist }}</a>
+      </iframe>                
     </div>
     
     <div class="col-md-4">
-      <a href="/">Back to home &rarr;</a>
+      <div class="credits">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Image -->
+<div class="modal fade" id="coverModal" tabindex="-1" role="dialog" aria-labelledby="AlbumCover" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">{{ page.title }}</h4>
+      </div>
+      <div class="modal-body">
+        <img src="{{ page.full_art_url}}" class="img-responsive">
+      </div>
     </div>
   </div>
 </div>
