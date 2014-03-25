@@ -6,7 +6,7 @@ album_id: "2972744313"
 small_art_url: "http://f0.bcbits.com/img/a4057036509_3.jpg"
 large_art_url: "http://f0.bcbits.com/img/a4057036509_2.jpg"
 full_art_url: "http://f0.bcbits.com/img/a4057036509_10.jpg"
-bc_url: "http://music.labelzero.com/album/a-bout-portant-original-score?pk=170"
+bc_url: "http://music.labelzero.com/album/a-bout-portant-original-score"
 permalink: "/album/a-bout-portant-original-score"
 ---
 ####Credits
