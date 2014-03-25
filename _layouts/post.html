@@ -23,36 +23,24 @@ layout: bootstrap
     
     <div class="col-md-4">
       <p>
-        <a href="{{ page.bc_url }}?action=buy" class="btn btn-primary btn-lg" role="button">Buy now</a> <span class="nameyourprice text-muted"> Name your price from $0</span> 
+        <span class="label label-default">MP3</span>
+        <span class="label label-default">FLAC</span>
       </p>
       <p>
-        Immediate download in the high-quality format of your choice (MP3, FLAC, and more). Paying supporters also get unlimited mobile access using the free listening app.
+        Immediate download in the high-quality format of your choice (MP3, FLAC, and <a href="http://bandcamp.com/faq_downloading#format" target="_blank">more</a>). Name your price, no minimum. Paying supporters also get unlimited mobile access using the <a href="http://blog.bandcamp.com/2013/10/25/its-over/">free listening app</a>.
+      </p>
+      <p>
+        <a href="{{ page.bc_url }}?action=buy" class="btn btn-primary btn-lg" role="button">Buy</a> <span class="price"> from $0</span> 
       </p>
       
-      {% if page.stores %}
-      <h4 id="formats">Also available on:</h4>
-
-      <div class="row download-links download-stores">
-        <div class="col-sm-6">
-          <span class="label label-default">Digital</span>     
-        </div>
-        <div class="col-sm-6">
-          <ul class="list-unstyled">
-          {% for store_hash in page.stores %}
-            {% for store in store_hash %}          
-              <li><a href="{{ store[1] }}">{{ store[0] }}</a></li>
-            {% endfor %}
-          {% endfor %}
-            <li>and many more</li>        
-          </ul>
-        </div>
-      </div>
+      {% if page.sellfy_url or page.cd_id or page.dvd_id or page.dvd_pal_id or page.bd_id %}
+      <h4 class="formats">Also available on:</h4>
       {% endif %}
 
       {% if page.sellfy_url %}
       <div class="row download-links" id="sellfy">
         <div class="col-sm-6">
-          <p><span class="label label-default">Digital</span>&nbsp;<span class="label label-info">5.1</span></p>
+          <p><span class="label label-default">FLAC</span>&nbsp;<span class="label label-info">5.1</span></p>
           <p>Download 5.1 surround high definition audio files, 24 bit FLAC. Includes PDF booklet.</p>
           <a href="https://sellfy.com/p/YxLh/" id="YxLh" class="<!-- sellfy-buy-button --> btn btn-default" role="button">Buy</a>
           <span class="price">$15</span>
@@ -68,7 +56,7 @@ layout: bootstrap
       <div class="row download-links">
         <div class="col-sm-6">
           <p><span class="label label-default">CD</span></p>
-          <p>Audio CD</p>
+          <p>Audio CD in jewel box. Made on demand and shipped worldwide.</p>
           <p>
             <a href="http://kunaki.com/Sales.asp?PID={{ page.cd_id }}" class="btn btn-default" role="button">Buy</a>
             <span class="price">$15</span>
@@ -127,6 +115,27 @@ layout: bootstrap
         </div>
       </div>
       {% endif %}
+
+      {% unless page.stores.empty? %}
+      <h4 class="formats">Other stores</h4>
+
+      <div class="row download-links download-stores">
+        <div class="col-sm-6">
+          <span class="label label-default">MP3</span>
+          <span class="label label-default">M4A</span>
+        </div>
+        <div class="col-sm-6">
+          <ul class="list-unstyled">
+            {% for store_hash in page.stores %}
+              {% for store in store_hash %}          
+              <li><a href="{{ store[1] }}">{{ store[0] }}</a></li>
+              {% endfor %}
+            {% endfor %}
+            <li>and many more</li>        
+          </ul>
+        </div>
+      </div>
+      {% endunless %}
       
     </div>  
   </div>
