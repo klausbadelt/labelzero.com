@@ -12,7 +12,8 @@ cd_id: PX00ZG6UD9
 dvd_id: PX00OG0RZI
 dvd_pal_id: PX00ZTHD02
 bd_id: PX004SK9C3
-sellfy_url: https://sellfy.com/p/YxLh/
+flac_url: https://sellfy.com/p/YxLh/
+score_url: https://sellfy.com/p/H01H/
 stores:
  - iTunes US: https://itunes.apple.com/us/album/supercondriaque-original-score/id830778910?uo=4&at=11lmv4
  - iTunes France: https://itunes.apple.com/fr/album/supercondriaque-original-score/id830778910?uo=4&at=11lmv4

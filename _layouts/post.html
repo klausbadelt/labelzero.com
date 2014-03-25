@@ -2,7 +2,9 @@
 layout: bootstrap
 ---
 <div class="container" id="album">
-  <h1 class="page-header">{{ page.title }} <small>by {{ page.artist }}</small></h1>
+  <h1 class="page-header">
+    {{ page.title }} <small>by {{ page.artist }}</small>
+  </h1>
   <div class="row">
     <div class="col-md-5">
       <p class="cover">
@@ -35,17 +37,16 @@ layout: bootstrap
       </p>
       {% endunless %}
       
-      {% if page.sellfy_url %}
-      <div class="row download-links" id="sellfy">
+      {% if page.flac_url %}
+      <div class="row download-links" id="flac">
         <div class="col-sm-6">
           <p><span class="label label-default">FLAC</span>&nbsp;<span class="label label-info">5.1</span></p>
           <p>Download 5.1 surround high definition audio files, 24 bit FLAC. Includes PDF booklet.</p>
-          <a href="https://sellfy.com/p/YxLh/" id="YxLh" class="<!-- sellfy-buy-button --> btn btn-default" role="button">Buy</a>
+          <a href="{{page.flac_url}}" class="<!-- sellfy-buy-button --> btn btn-default" role="button">Buy</a>
           <span class="price">$15</span>
-          <script type="text/javascript" src="https://sellfy.com/js/api_buttons.js"></script>
         </div>
         <div class="col-sm-6">
-          <a href="https://sellfy.com/p/YxLh/"><img src="/images/{{page.album_id}}.jpg" class="img-thumbnail" alt="5.1 download"></a>
+          <a href="{{page.flac_url}}"><img src="/images/{{page.album_id}}-flac.jpg" width=165 height=165 class="img-thumbnail" alt="5.1 download"></a>
         </div>
       </div>
       {% endif %}
@@ -110,6 +111,24 @@ layout: bootstrap
         </div>
         <div class="col-sm-6">
           <a href="http://kunaki.com/Sales.asp?PID={{ page.bd_id }}"><img src="http://kunaki.com/boxshots/{{page.bd_id}}.jpg" class="img-thumbnail"></a>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if page.score_url %}                  
+      <div class="row">
+        <div class="col-sm-6">
+          <p><span class="label label-warning">PDF</span></p>
+          <p>
+            The full conductor score book in PDF format, as used in the orchestra scoring sessions.
+          </p>
+          <p>
+            <a href="{{page.score_url}}" class="btn btn-default">Download</a>
+            <span class="price">$10</span>
+          </p>
+        </div>
+        <div class="col-sm-6">
+          <a href="{{page.score_url}}"><img src="/images/score-thumb.jpg" width=165 height=165 class="img-thumbnail img-responsive"></a>
         </div>
       </div>
       {% endif %}

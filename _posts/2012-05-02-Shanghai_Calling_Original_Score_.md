@@ -9,6 +9,7 @@ full_art_url: "http://f0.bcbits.com/img/a3134888577_10.jpg"
 bc_url: "http://music.labelzero.com/album/shanghai-calling-original-score?pk=170"
 permalink: "/album/shanghai-calling-original-score"
 cd_id: PX00ZBNVGN
+flac_url: https://sellfy.com/p/YD0B/
 ---
 The full original score by Christopher Carmichael and Klaus Badelt to the motion picture "Shanghai Calling", directed by Daniel Hsia, produced by Janet Yang.
 
