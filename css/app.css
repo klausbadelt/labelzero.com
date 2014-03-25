@@ -137,7 +137,10 @@ a.anchor {
 }
 
 /* album page */
-#player .hastracklist.smallartwork #nonartarea, .hastracklist.noartwork #nonartarea {
-  padding-bottom: 15px;
-  border: none;
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-right: 8px;
+  margin-left: 4px;
 }
