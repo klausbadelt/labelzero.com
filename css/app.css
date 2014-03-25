@@ -142,5 +142,12 @@ a.anchor {
   font-weight: bold;
   vertical-align: middle;
   margin-right: 8px;
-  margin-left: 4px;
+}
+.nameyourprice {
+  vertical-align: middle;
+}
+
+div.download-links {
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
