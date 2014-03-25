@@ -138,16 +138,30 @@ a.anchor {
 
 /* album page */
 .price {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+/*  text-align: center;
+  cursor: pointer;
+*/  background-image: none;
+  white-space: nowrap;
+  padding: 6px 12px;
+  line-height: 1.42857143;
   font-size: 20px;
-  font-weight: bold;
   vertical-align: middle;
   margin-right: 8px;
 }
 .nameyourprice {
   vertical-align: middle;
+  margin-left: 20px;
 }
 
 div.download-links {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 20px;
+}
+
+h4#formats {
+  border-top: 1px solid #eee;
+  padding-top: 10px;
 }
