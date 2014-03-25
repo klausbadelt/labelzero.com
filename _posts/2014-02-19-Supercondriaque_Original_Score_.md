@@ -7,7 +7,7 @@ album_id: "3536086185"
 small_art_url: "http://f0.bcbits.com/img/a0609609855_3.jpg"
 large_art_url: "http://f0.bcbits.com/img/a0609609855_2.jpg"
 full_art_url: "http://f0.bcbits.com/img/a0609609855_10.jpg"
-permalink: "/album/supercondriaque-original-score"
+permalink: "/album/supercondriaque"
 cd_id: PX00ZG6UD9
 dvd_id: PX00OG0RZI
 dvd_pal_id: PX00ZTHD02
@@ -17,8 +17,7 @@ stores:
  - iTunes US: https://itunes.apple.com/us/album/supercondriaque-original-score/id830778910?uo=4&at=11lmv4
  - iTunes France: https://itunes.apple.com/fr/album/supercondriaque-original-score/id830778910?uo=4&at=11lmv4
  - Amazon: http://www.amazon.com/gp/product/B00IRXCD9I/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00IRXCD9I&linkCode=as2&tag=labelzerocom-20
- - Amazon France: http://www.amazon.fr/Supercondriaque-Original-Score-Klaus-Badelt/dp/B00IRW2ZC4/tag=labelzerocom-20 
- 
+ - Amazon France: http://www.amazon.fr/Supercondriaque-Original-Score-Klaus-Badelt/dp/B00IRW2ZC4/tag=labelzerocom-20
 category: Comedy
 tags: cd dvd blu-ray
 ---

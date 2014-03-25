@@ -14,7 +14,7 @@ After song placements in film & TV like “Smallville", “ER”, “Side Order 
   
 Produced by Hollywood film composer Klaus Badelt (Pirates of the Caribbean), the album features legendary talents Michael Landau (Joni Mitchell/James Taylor), Luis Conte (Madonna), Tom Coster (Santana), Abe Laboriel (Stevie Wonder), Abe Laboriel Jr (Paul McCartney) and engineer/co-producer James Guthrie (Pink Floyd). The music was recorded in London, Paris and Los Angeles with strings at Abbey Road, London.  
   
-http://facebook.com/jamescarringtonmusic
+Follow James on [Facebook](http://facebook.com/jamescarringtonmusic) and [Twitter](http://twitter.com/carringtonsings).
 
 ####Credits
 James Carrington: Guitars, Piano, Vocals  
@@ -30,7 +30,12 @@ Klaus Badelt: Piano, Keyboards
 The London Metropolitan Orchestra conducted by Andy Brown  
   
 All songs written by James Carrington  
-Published by Cheeky Music except Lights written by James Carrington & Klaus Badelt, KB Publishing (GEMA) & Cheeky Music. Dreamers Machine written by James Carrington & Sacha Skarbek, Cheeky Music/Universal Music Publishing. Save the Day written by James Carrington & Blair Mackichan, Cheeky Music/Universal Music Publishing. Stop the World written by James Carrington & James Simmonds. String arrangements by Klaus Badelt.  
+Published by Cheeky Music  
+Except:  
+Lights written by James Carrington & Klaus Badelt, KB Publishing (GEMA) & Cheeky Music.   
+Dreamers Machine written by James Carrington & Sacha Skarbek, Cheeky Music/Universal Music Publishing.  
+Save the Day written by James Carrington & Blair Mackichan, Cheeky Music/Universal Music Publishing.  
+Stop the World written by James Carrington & James Simmonds. String arrangements by Klaus Badelt.  
   
 Co-produced & mixed by James Guthrie
   

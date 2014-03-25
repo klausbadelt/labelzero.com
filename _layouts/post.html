@@ -1,27 +1,28 @@
 ---
 layout: bootstrap
 ---
-<div class="container release">
+<div class="container" id="album">
   <h1 class="page-header">{{ page.title }} <small>by {{ page.artist }}</small></h1>
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-5">
       <p class="cover">
         <a href="{{ page.full_art_url }}" data-toggle="modal" data-target="#coverModal">
           <img src="{{ page.large_art_url}}" class="img-thumbnail img-responsive">
         </a>
       </p>
+
+      <iframe style="border: 0; width: 100%; min-height: 300px; height: 600px;" src="https://bandcamp.com/EmbeddedPlayer/album={{ page.album_id }}/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/" seamless>
+        <a href="{{ page.bc_url }}">{{ page.title }} by {{ page.artist }}</a>
+      </iframe>                
+
       <div class="credits">
         {{ content }}
       </div>
     </div>
 
     <div class="col-md-4">
-      <iframe style="border: 0; width: 100%; min-height: 300px; height: 600px;" src="https://bandcamp.com/EmbeddedPlayer/album={{ page.album_id }}/size=large/bgcol=ffffff/linkcol=0687f5/artwork=none/transparent=true/" seamless>
-        <a href="{{ page.bc_url }}">{{ page.title }} by {{ page.artist }}</a>
-      </iframe>                
-    </div>
-    
-    <div class="col-md-4">
+      {% unless page.downloadable == false %}
+      <h4 class="formats">Available in these formats:</h4>
       <p>
         <span class="label label-default">MP3</span>
         <span class="label label-default">FLAC</span>
@@ -30,13 +31,10 @@ layout: bootstrap
         Immediate download in the high-quality format of your choice (MP3, FLAC, and <a href="http://bandcamp.com/faq_downloading#format" target="_blank">more</a>). Name your price, no minimum. Paying supporters also get unlimited mobile access using the <a href="http://blog.bandcamp.com/2013/10/25/its-over/">free listening app</a>.
       </p>
       <p>
-        <a href="{{ page.bc_url }}?action=buy" class="btn btn-primary btn-lg" role="button">Buy</a> <span class="price"> from $0</span> 
+        <a href="{{ page.bc_url }}?action=buy" class="btn btn-primary btn-lg" role="button">Buy now</a> <span class="price"> from $0</span> 
       </p>
+      {% endunless %}
       
-      {% if page.sellfy_url or page.cd_id or page.dvd_id or page.dvd_pal_id or page.bd_id %}
-      <h4 class="formats">Also available on:</h4>
-      {% endif %}
-
       {% if page.sellfy_url %}
       <div class="row download-links" id="sellfy">
         <div class="col-sm-6">
@@ -116,7 +114,7 @@ layout: bootstrap
       </div>
       {% endif %}
 
-      {% unless page.stores.empty? %}
+      {% if page.stores %}
       <h4 class="formats">Other stores</h4>
 
       <div class="row download-links download-stores">
@@ -135,9 +133,22 @@ layout: bootstrap
           </ul>
         </div>
       </div>
-      {% endunless %}
+      {% endif %}
       
     </div>  
+
+    <div class="col-md-3">
+      <h4 class="formats">Other releases</h4>
+      <!-- <div class="row"> -->
+      {% for post in site.posts %}
+      {% unless post.title == page.title %}
+        <span class="coverthumb">
+          <a href="{{post.url}}" title="{{ post.title }}"><img width=120 height=120 class="img-thumbnail img-responsive" src="{{post.small_art_url}}" /></a>
+        </span>
+      {% endunless %}
+      {% endfor %}
+      <!-- </div> -->
+    </div>
   </div>
 </div>
 
