@@ -8,6 +8,7 @@ large_art_url: "http://f0.bcbits.com/img/a3541070894_2.jpg"
 full_art_url: "http://f0.bcbits.com/img/a3541070894_10.jpg"
 bc_url: "http://music.labelzero.com/album/un-plan-parfait-original-score?pk=170"
 permalink: "/album/un-plan-parfait-original-score"
+cd_id: PX00ENOSY5
 ---
 ####Credits
 Music by Klaus Badelt  

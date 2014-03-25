@@ -8,6 +8,7 @@ large_art_url: "http://f0.bcbits.com/img/a2905120717_2.jpg"
 full_art_url: "http://f0.bcbits.com/img/a2905120717_10.jpg"
 bc_url: "http://jamescarrington.com/album/the-dreamers-machine?pk=170"
 permalink: "/album/the-dreamers-machine"
+cd_id: PX00ZNIA68
 ---
 ####About
 After song placements in film & TV like “Smallville", “ER”, “Side Order of Life”, “The Evidence”, and the Werner Herzog movie "Rescue Dawn" (starring Christian Bale and Steve Zahn), the release of James Carrington's debut album is a long time dream come true for him.   

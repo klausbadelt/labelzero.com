@@ -179,13 +179,13 @@ div.download-links {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 h4.formats {
-  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
   margin-top: 30px;
   padding-top: 10px;
+  padding-bottom: 6px;
 }
-div > h4.formats {
+div > h4.formats:first-child  {
   border-top: none;
   margin-top: inherit;
   padding-top: 0;

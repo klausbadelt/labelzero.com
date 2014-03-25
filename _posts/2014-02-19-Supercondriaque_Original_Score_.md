@@ -21,6 +21,10 @@ stores:
 category: Comedy
 tags: cd dvd blu-ray
 ---
+The hit romantic comedy of director, writer and actor Dany Boon ("Bienvenue chez les Ch'tis") was released in March 2014.
+Starring Dany Boon, Alice Pol &amp; Kad Merad.  
+Studio: Pathé.
+
 Includes the full score as written to the film.
 
 ####Credits
@@ -30,7 +34,10 @@ Additional Arrangements by Christopher Carmichael
 Score Produced & Mixed by Klaus Badelt  
 Recorded at Air Studios (London), Abbey Road Studios (London)   
 Mixed at Klaus Badelt Studios, Santa Monica, CA.  
-Executive in Charge of Music: Robyn Klein
+Executive in Charge of Music: Robyn Klein  
+Agency for France: Jean-Pierre Arquié
+
+Thank you, Dany!
 
 © 2014 Path&eacute; Production  
 This compilation &#x2117; 2014 labelzero.com

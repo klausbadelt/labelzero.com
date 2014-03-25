@@ -12,27 +12,26 @@ permalink: "/album/yoko-the-complete-original-score"
 ####About
 This is my complete and uncut edition of the score as it appears in the movie.  
   
-Für Besucher aus Deutschland gibt's den Original-Soundtrack zum Film mit dem Lied "Was geht ab" bei unserem deutschen Vertrieb www.jumbo-medien.de.  
+Für Besucher aus Deutschland gibt's den Original-Soundtrack zum Film mit dem Lied "Was geht ab" bei unserem [deutschen Vertrieb](http://www.jumbo-medien.de). 
   
-Visit the official movie site here: www.yoko-derfilm.de  
-Released by labelzero.com
+Visit also the [official movie site](http://www.yoko-derfilm.de).
 
 ####Credits
-Music By Mark Anthony Yaeger   
-Score Produced By Klaus Badelt  
+Music by Mark Anthony Yaeger   
+Score Produced by Klaus Badelt  
 Additional Arrangements by Daniel Rojas   
-Score Mixed By Klaus Badelt and Mark Anthony Yaeger  
+Score Mixed by Klaus Badelt and Mark Anthony Yaeger  
 Executive in Charge of Music: Robyn Klein   
-Featuring Solo Performances By Rachel Mellis (flute, clarinet)   
+Featuring Solo Performances by Rachel Mellis (flute, clarinet)   
 Score Production Manager: Simone de Leuw   
 Score Mixed At Theme Park Studios, Santa Monica and HLC Studios, Paris   
 Score Recorded At Xin Ying Film Studios, Beijing and   
 Theme Park Studios, Santa Monica.   
 Orchestra: China National Orchestra   
-Orchestra Recorded By Li Yue-Song  
+Orchestra Recorded by Li Yue-Song  
 Assistant Orchestra Engineer: Wang Zheng  
-Music Preparation By Tom NW Zhang  
-Score Orchestrated By Sujin Nam   
+Music Preparation by Tom NW Zhang  
+Score Orchestrated by Sujin Nam   
 Score Supervisor (China): Frank Ge-Fang Yang   
 Technical Support (China): Wang Hao   
   
