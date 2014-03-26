@@ -160,13 +160,7 @@ layout: bootstrap
       {% for post in site.posts %}
       {% unless post.title == page.title %}
         <span class="coverthumb">
-          <a href="{{post.url}}" title="{{ post.title }}">
-            <img width=120
-                 height=120
-                 class="lazy img-thumbnail img-responsive"
-                 data-original="{{post.small_art_url}}"
-                 src="/images/grey.gif">
-          </a>
+          <a href="{{post.url}}" title="{{ post.title }}"><img width=120 height=120 class="lazy img-thumbnail img-responsive" data-original="{{post.small_art_url}}" src="/images/grey.gif"></a>
         </span>
       {% endunless %}
       {% endfor %}
