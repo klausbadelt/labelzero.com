@@ -44,7 +44,7 @@ layout: bootstrap
           <span class="price">$15</span>
         </div>
         <div class="col-sm-6">
-          <a href="{{page.flac_url}}"><img src="/images/{{page.album_id}}-flac.jpg" width=165 height=165 class="img-thumbnail" alt="5.1 download"></a>
+          <a href="{{page.flac_url}}"><img data-original="/images/{{page.album_id}}-flac.jpg" src="/images/grey.gif" width=165 height=165 class="lazy img-thumbnail" alt="5.1 download"></a>
         </div>
       </div>
       {% endif %}
@@ -60,7 +60,7 @@ layout: bootstrap
           </p>
         </div>
         <div class="col-sm-6">
-          <a href="http://kunaki.com/Sales.asp?PID={{ page.cd_id }}"><img src="http://kunaki.com/boxshots/{{page.cd_id}}.jpg" class="img-thumbnail"></a>
+          <a href="http://kunaki.com/Sales.asp?PID={{ page.cd_id }}"><img data-original="http://kunaki.com/boxshots/{{page.cd_id}}.jpg" src="/images/grey.gif" width=165 height=165 class="lazy img-thumbnail"></a>
         </div>
       </div>
       {% endif %}
@@ -92,7 +92,7 @@ layout: bootstrap
           </p>
         </div>
         <div class="col-sm-6">
-          <a href="http://kunaki.com/Sales.asp?PID={{ page.dvd_pal_id }}"><img src="http://kunaki.com/boxshots/{{page.dvd_pal_id}}.jpg" class="img-thumbnail"></a>
+          <a href="http://kunaki.com/Sales.asp?PID={{ page.dvd_pal_id }}"><img data-original="http://kunaki.com/boxshots/{{page.dvd_pal_id}}.jpg" src="/images/grey.gif" width=165 height=228 class="lazy img-thumbnail"></a>
         </div>
       </div>
       {% endif %}
@@ -108,7 +108,7 @@ layout: bootstrap
           </p>
         </div>
         <div class="col-sm-6">
-          <a href="http://kunaki.com/Sales.asp?PID={{ page.bd_id }}"><img src="http://kunaki.com/boxshots/{{page.bd_id}}.jpg" class="img-thumbnail"></a>
+          <a href="http://kunaki.com/Sales.asp?PID={{ page.bd_id }}"><img data-original="http://kunaki.com/boxshots/{{page.bd_id}}.jpg" src="/images/grey.gif" width=165 height=228 class="lazy img-thumbnail"></a>
         </div>
       </div>
       {% endif %}
@@ -126,7 +126,7 @@ layout: bootstrap
           </p>
         </div>
         <div class="col-sm-6">
-          <a href="{{page.score_url}}"><img src="/images/score-thumb.jpg" width=165 height=165 class="img-thumbnail img-responsive"></a>
+          <a href="{{page.score_url}}"><img data-original="/images/score-thumb.jpg" src="/images/grey.gif" width=165 height=165 class="lazy img-thumbnail img-responsive"></a>
         </div>
       </div>
       {% endif %}
@@ -160,7 +160,13 @@ layout: bootstrap
       {% for post in site.posts %}
       {% unless post.title == page.title %}
         <span class="coverthumb">
-          <a href="{{post.url}}" title="{{ post.title }}"><img width=120 height=120 class="img-thumbnail img-responsive" src="{{post.small_art_url}}" /></a>
+          <a href="{{post.url}}" title="{{ post.title }}">
+            <img width=120
+                 height=120
+                 class="lazy img-thumbnail img-responsive"
+                 data-original="{{post.small_art_url}}"
+                 src="/images/grey.gif" />
+          </a>
         </span>
       {% endunless %}
       {% endfor %}
