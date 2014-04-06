@@ -31,17 +31,25 @@ section {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-section:nth-of-type(3n+2) {
+section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+section:nth-of-type(3n+1) {
   background-color: #eee;   
 }
 section:nth-of-type(3n) {
-  background-color: #406E74; /* #e67d25 #4C5679; #36426B */
+  background-color: #4C5679; /* #e67d25 #4C5679; #36426B */
   color: #fff;
   letter-spacing: 0.02em;
 }
 section:nth-of-type(3n) a {
   color: #acdbe4;
 }
+/*section:nth-of-type(4n) a {
+  color: #acdbe4;
+}
+*/
 section:last-of-type {
 /*  min-height: 100vh; */
 }
@@ -205,3 +213,86 @@ a.anchor {
 */    opacity: 1;
 }
 
+.table tbody>tr>td.valign
+{
+    vertical-align: middle;
+}
+
+/* Pricing */
+.pricing{
+  margin: 18px 0;
+  border: 0;
+  }
+
+.pricehover{
+  text-align: center;
+}
+.pricehover:hover{
+-webkit-transform:scale(1.02); 
+box-shadow: 0 0 30px rgba(0, 0, 0, 0.67);
+-moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.67);
+-webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.67);
+-webkit-transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
+-ms-transition: all 0.2s linear;
+-o-transition: all 0.2s linear;
+transition: all 0.2s linear;
+-moz-transform: scale(1.02);
+animation-duration: 2s;
+animation-timing-function: ease-in-out;
+animation-fill-mode: forwards;
+/*cursor: pointer;*/
+background: #fff;
+}
+
+.pricehover.featured{
+-webkit-transform:scale(1.15); 
+box-shadow: 0 0 30px rgba(0, 0, 0, 0.67);
+-moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.67);
+-webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.67);
+-webkit-transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
+-ms-transition: all 0.2s linear;
+-o-transition: all 0.2s linear;
+transition: all 0.2s linear;
+-moz-transform: scale(1.15);
+animation-duration: 2s;
+animation-timing-function: ease-in-out;
+animation-fill-mode: forwards;
+cursor: pointer;
+background: #fff;
+}
+.pricehover:hover .price{background:#00CC00; border-color: #00CC00;}
+.pricehover .price{
+ background-color: #333;
+ border: 3px solid #333;
+ height: 100px;
+ -moz-border-radius:75px;
+ -webkit-border-radius: 75px;
+ width: 100px;
+ margin:0 auto;
+}
+.pricehover .price.featuredprice{
+ background-color: #00CC00;
+ border: 3px solid #00CC00;
+ height: 100px;
+ -moz-border-radius:75px;
+ -webkit-border-radius: 75px;
+ width: 100px;
+ margin:0 auto;
+}
+
+.pricehover .price h4{
+  text-align: center; line-height: 100px; color: #fff;
+}
+
+ul.pricing li{
+  margin: 18px 10px;
+  padding-bottom:10px;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+  }
+  
+.col-sm-7 > h2:first-child {
+  margin-top: 0;
+}

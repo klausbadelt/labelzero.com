@@ -28,13 +28,37 @@ Studio: Pathé.
 
 Includes the full score as written to the film.
 
+###True high resolution audiophile sound 
+Labelzero.com faithfully captures the quality of the original masters. The Signature Series uses only highest fidelity studio equipment, D/A converters, clock generators and advanced technology to deliver a no-compromise, unadulterated audiophile sound. Every Signature Series release represents the production exactly as the composer envisions it. Enjoy the exact same audio experience as when mixed and mastered in the studio.
+
+####Performance
+London Metropolitan Orchestra  
+Conducted by Andy Brown
+
+####Recording
+Recorded September 3, 2013  
+Abbey Road Studio Two, London, UK  
+and September 4, 2013  
+Air Studios Lyndhurst Hall, London, UK  
+Engineer: Jake Jackson  
+recorded at 24 Bit/96 kHz  
+
+
+####Mix
+Mixed September 6 to September 12, 2013  
+by Klaus Badelt at Klaus Badelt Studios, Santa Monica, CA  
+Equipment used:  
+SSL consoles & A/D converters  
+Apogee D/A converters  
+
+####Mastering  
+Mastering Engineer: Julian Scherle (Klaus Badelt Studios)  
+Producer: Christopher Carmichael
+
 ####Credits
 Original Score by Klaus Badelt  
 Additional Arrangements by Christopher Carmichael  
-  
 Score Produced & Mixed by Klaus Badelt  
-Recorded at Air Studios (London), Abbey Road Studios (London)   
-Mixed at Klaus Badelt Studios, Santa Monica, CA.  
 Executive in Charge of Music: Robyn Klein  
 Agency for France: Jean-Pierre Arquié
 

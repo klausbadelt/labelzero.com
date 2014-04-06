@@ -40,11 +40,11 @@ layout: bootstrap
         <div class="col-sm-6">
           <p><span class="label label-default">FLAC</span>&nbsp;<span class="label label-info">5.1</span></p>
           <p>Download 5.1 surround high definition audio files, 24 bit FLAC. Includes PDF booklet.</p>
-          <a href="{{page.flac_url}}" class="<!-- sellfy-buy-button --> btn btn-default" role="button">Buy</a>
-          <span class="price">$15</span>
+          
+          <a href="{{page.flac_url}}" class="sellfy-buy-button sellfy-buy-button-custom btn btn-default" role="button">Buy</a><span class="price">$15</span>
         </div>
         <div class="col-sm-6">
-          <a href="{{page.flac_url}}"><img data-original="/images/{{page.album_id}}-flac.jpg" src="/images/grey.gif" width=165 height=165 class="lazy img-thumbnail" alt="5.1 download"></a>
+          <a href="{{page.flac_url}}" class="sellfy-buy-button sellfy-buy-button-custom"><img data-original="/images/{{page.album_id}}-flac.jpg" src="/images/grey.gif" width=165 height=165 class="lazy img-thumbnail" alt="5.1 download"></a>
         </div>
       </div>
       {% endif %}
@@ -168,3 +168,4 @@ layout: bootstrap
     </div>
   </div>
 </div>
+<script type="text/javascript" src="https://sellfy.com/js/api_buttons.js"></script>
