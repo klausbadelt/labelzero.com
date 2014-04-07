@@ -197,12 +197,15 @@ a.anchor {
   margin-top: inherit;
   padding-top: 0;
 }
-
+#album .coverthumb {
+  margin: inherit;
+  line-height: inherit;
+}
 #album .coverthumb img {
 /*    filter: url(/images/filters.svg#grayscale); /* Firefox 3.5+ */
 /*    filter: gray; /* IE6-9 */
   /*  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+  */
-    opacity: 0.7;
+    opacity: 0.8;
     -webkit-transition: opacity 0.3s;
     transition: opacity 0.3s;
 }
@@ -211,6 +214,10 @@ a.anchor {
 /*    filter: none;
     -webkit-filter: grayscale(0);
 */    opacity: 1;
+}
+
+#album .caption {
+  font-size: 90%;
 }
 
 .table tbody>tr>td.valign
@@ -296,3 +303,4 @@ ul.pricing li{
 .col-sm-7 > h2:first-child {
   margin-top: 0;
 }
+

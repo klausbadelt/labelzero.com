@@ -156,15 +156,28 @@ layout: bootstrap
 
     <div class="col-md-3">
       <h4 class="formats">Other releases</h4>
-      <!-- <div class="row"> -->
-      {% for post in site.posts %}
-      {% unless post.title == page.title %}
-        <span class="coverthumb">
-          <a href="{{post.url}}" title="{{ post.title }}"><img width=120 height=120 class="lazy img-thumbnail img-responsive" data-original="{{post.small_art_url}}" src="/images/grey.gif"></a>
-        </span>
-      {% endunless %}
-      {% endfor %}
-      <!-- </div> -->
+{% assign loopindex = 0 %}
+{% for post in site.posts %}
+  {% unless post.title == page.title %}
+    {% assign loopindex = loopindex | plus: 1 %}
+    {% assign rowfinder = loopindex | modulo: 2 %}
+    {% if rowfinder == 1 %}
+      <div class="row">
+    {% endif %}
+        <div class="col-sm-6">
+          <div class="coverthumb">
+            <a href="{{post.url}}" title="{{ post.title }}"><img width=120 height=120 class="lazy img-thumbnail img-responsive" data-original="{{post.small_art_url}}" src="/images/grey.gif"></a>
+          </div>
+          <p class="caption">
+            <a href="{{post.url}}" title="{{ post.title }}">{{ post.title }}</a>
+          </p>
+    {% if rowfinder == 0 %}
+        </div>
+    {% endif %}
+      </div>
+  {% endunless %}
+{% endfor %}
+      </div>
     </div>
   </div>
 </div>
