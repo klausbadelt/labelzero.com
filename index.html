@@ -8,7 +8,7 @@ id: home
 <div class="jumbotron">
   <div class="container">
     <h1>Pick-your-price. Share &amp; remix.</h1>
-    <p>Free downloads. Free copying & sharing with your friends*. Full length previews. From mp3 to audiophile 5.1 Surround. Download, CD, Music DVD and Music Blu-ray. Buy here or at all major retailers. We ship worldwide.</p>
+    <p>Free downloads. Free copying & sharing with your friends*. Full length previews. From mp3 to audiophile Surround. Download, CD, Music DVD and Music Blu-ray. Buy here or at all major retailers. We ship worldwide.</p>
     <p>Welcome to labelzero.com.</p>
     <p>
       <a href="#music" class="btn btn-primary btn-lg">Listen &amp; shop &raquo;</a><br />
@@ -17,9 +17,231 @@ id: home
 </div>
 
 <a class="anchor" id="music"></a>
-<div class="container">
-  <div id="covers" class="covers center-block">
-    {% for post in site.posts %}<span class="coverthumb"><a href="{{post.url}}" title="{{ post.title }}"><img width=120 height=120 class="img-thumbnail img-responsive" src="{{post.small_art_url}}" /></a></span>{% endfor %}
+<section>
+  <div class="container">
+    <div id="covers" class="covers center-block">
+      {% for post in site.posts %}<span class="coverthumb"><a href="{{post.url}}" title="{{ post.title }}"><img width=120 height=120 class="img-thumbnail img-responsive" src="{{post.small_art_url}}" /></a></span>{% endfor %}
+    </div>
   </div>
-</div>
+</section>
 
+<a class="anchor" id="formats"></a>
+<section>
+  <div class="container">
+    <h1>From MP3 to Audiophile <small>A guide to our formats</small></h1>
+    <p class="lead">Whether running with your iPod&reg; or a focused listening session in your AV room on esoteric reference audio equipment: our releases are available in many formats, from mp3 downloads to surround Blu-ray to conductor score.</p>
+
+    <div class="row" id="pricetable">
+      <div class="col-sm-2">
+        <div class="well pricehover">
+          <h4 class="pricetitle"><a href="#stereo">Digital</a></h4>
+          <div class="priceimage">
+            <img src="/images/formats_stereo.jpg" class="img-thumbnail img-responsive" alt="Download stereo cover">
+          </div>
+          <ul class="list-unstyled pricing animated fadeIn ">
+            <li>Download</li>
+            <li>Stereo</li>
+            <li class="pricefiles">MP3 to FLAC</li>
+            <li><h3><small>from </small>$0</h3></li>
+          </ul>
+          <button class="btn btn-primary" href="#stereo">More info</button>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="well pricehover">
+          <h4 class="pricetitle"><a href="#surround">Digital Surround</a></h4>
+          <div class="priceimage">
+            <img src="/images/formats_surround.jpg" class="img-thumbnail img-responsive" alt="Download stereo cover">
+          </div>
+          <ul class="list-unstyled pricing animated fadeIn">
+            <li>Download</li>
+            <li>Surround</li>
+            <li class="pricefiles">FLAC 5.1/24bit</li>
+            <li><h3>$15</h3></li>
+          </ul>
+          <button class="btn btn-primary" href="#surround">More info</button>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="well pricehover">
+          <h4 class="pricetitle"><a href="#cd">CD</a></h4>
+          <div class="priceimage">
+            <img src="/images/formats_cd.jpg" class="img-thumbnail img-responsive" alt="Download stereo cover">
+          </div>
+          <ul class="list-unstyled pricing animated fadeIn ">
+            <li>Compact Disc</li>
+            <li>Stereo</li>
+            <li class="pricefiles">Audio CD</li>
+            <li><h3>$10</h3></li>
+          </ul>
+          <a class="btn btn-primary" href="#cd">More info</a>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="well pricehover">
+          <h4 class="pricetitle"><a href="#dvd">DVD</a></h4>
+          <div class="priceimage">
+            <img src="/images/formats_dvd.jpg" class="img-thumbnail img-responsive" alt="Download stereo cover">
+          </div>
+          <ul class="list-unstyled pricing animated fadeIn">
+            <li>Music DVD</li>
+            <li>Surround</li>
+            <li class="pricefiles">Dolby Digital, DVD-A</li>
+            <li><h3>$20</h3></li>
+          </ul>
+          <a class="btn btn-primary" href="#dvd">More info</a>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="well pricehover">
+          <h4 class="pricetitle"><a href="#bluray">Blu-ray</a></h4>
+          <div class="priceimage">
+            <img src="/images/formats_bluray.jpg" class="img-thumbnail img-responsive" alt="Download stereo cover">
+          </div>
+          <ul class="list-unstyled pricing animated fadeIn">
+            <li>Music Blu-ray</li>
+            <li>HD Surround</li>
+            <li class="pricefiles">DTS MA-HD, FLAC 5.1/24bit</li>
+            <li><h3>$30</h3></li>
+          </ul>
+          <a class="btn btn-primary" href="#bluray">More info</a>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="well pricehover">
+          <h4 class="pricetitle"><a href="#score">Score</a></h4>
+          <div class="priceimage">
+            <img src="/images/score-thumb.jpg" class="img-thumbnail img-responsive" width="165" height="165" alt="Download Conductor Score">
+          </div>
+          <ul class="list-unstyled pricing animated fadeIn">
+            <li>Download</li>
+            <li>Conductor Score</li>
+            <li class="pricefiles">PDF</li>
+            <li><h3>$10</h3></li>
+          </ul>
+          <a class="btn btn-primary" href="#bluray">More info</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<a class="anchor" id="stereo"></a>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-7">
+        <h2><i class="fa fa-cloud-download"></i> Digital Download</h2>
+        <p class="lead">Immediate download of audio files in MP3, AAC, FLAC, ALAC and Ogg Vorbis. Starting at $0.</p>
+        <p>All digital stereo downloads are Name-Your-Price with no minimum. Pick a price you feel is fair - including free. Paying supporters get unlimited mobile access using the free listening app.</p>
+        <p>Our online player features full-length previews - way beyond the usual 30-90 seconds others offer. Every track of an album can be previewed.</p>
+        <p>The default download format is MP3, the most downloaded format. These files play back beautifully in iTunes, Windows Media Player, your iPhone/Android phone, etc. and include high quality cover art, accurate artist and track names, and lyrics when available. Our MP3s use variable bit-rate encoding (VBR) to shrink the size of the files while maintaining the highest quality, so you get fast downloads and can fit more labelzero.com soundtracks on your iPhone.</p>
+        <p>If you have an older MP3 player that doesn't like VBR files, try the MP3 320 format instead. These files are larger but they sound just as good and have all the same metadata, and will work on any MP3 player.</p>
+        <p>You can also download in FLAC, ALAC (Apple Lossless), AAC, or Ogg Vorbis format. These options provide higher quality. FLAC and ALAC feature lossless compression, meaning the audio information within is unchanged from the original masters down to the last bit - but they are also rather large files.</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="images/formats_stereo.jpg" width="300" height="300" alt="Web Cover"  class="img-thumbnail img-responsive">
+      </div>
+    </div>
+  </div>
+</section>
+
+<a class="anchor" id="surround"></a>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="/images/formats_surround.jpg" class="img-thumbnail img-responsive">
+      </div>
+      <div class="col-sm-7">
+        <h2><i class="fa fa-cloud-download"></i> Digital Download - Surround</h2>
+        <p class="lead">Lossless Compression, No Compromise: True High-Resolution 24bit Surround Audiophile Sound.</p>
+        <p>
+We use the original masters to deliver lossless, high-resolution versions of every album. Mastered at 24bit, our Surround downloads deliver the exact sound the composer and filmmakers heard in the studio when these albums were recorded and mixed. The lossless FLAC format is a bit-to-bit copy of the original master files.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<a class="anchor" id="cd"></a>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-7">
+        <h2><i class="fa "></i> Audio CD</h2>
+        <p class="lead">High quality mastered Compact Disc.</p>
+        <p>We understand Audio CD is still preferred by many over downloads. <strong>Every</strong> album is therefore also released as physical Compact Disk.</p>
+         <p>Our high-end mastering process includes Psychoacoustically Optimized Wordlength Reduction (Pow-r) and/or the Apogee UV22HR High Resolution Audio Encoding process, bringing the best possible sound to the Compact Disc format.</p>
+      </div>
+      <div class="col-sm-5">
+        <img src="images/formats_cd.jpg" width="236" height="208" alt="CD cover" class="img-thumbnail img-responsive">
+      </div>
+    </div>
+  </div>
+</section>
+
+<a class="anchor" id="dvd"></a>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="/images/formats_dvd.jpg" width="228" height="320" alt="Formats Bluray" class="img-thumbnail img-responsive">
+      </div>
+      <div class="col-sm-7">
+        <h2><i class="fa"></i> Music DVD</h2>
+        <p class="lead">Finally in your living room: Surround Music</p>
+        <p>Our Music DVD disc brings surround music on your surround system, playable on any DVD player. It features the album in 5.1 Dolby Digital surround sound. An on On-Screen Menu display is included for easy navigation (Note: this is music only and doesn't include the feature film).</p>
+        <p>In addition to the regular DVD format, the disc includes the album in DVD-A surround for compatible audiohpile DVD-Audio players (16bit surround, maxing out the technical specs of DVD-A). The same disc also contains 24bit surround FLAC audio files of all tracks, to be opened and played on your computer with DVD drive. In total the multi-format disc contains 3 formats:</p>
+        <ol>
+          <li>DVD - playable on any DVD player</li>
+          <li>DVD-A - playable on any DVD-Audio (DVD-A) player</li>
+          <li>Data DVD - audio files for computer playback</li>
+        </ol>
+        <p>A PDF booklet is also contained in the data section of the disc.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<a class="anchor" id="bluray"></a>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-7">
+        <h2><i class="fa"></i> Music Blu-ray</h2>
+        <p class="lead">Lossless Compression: True High-Resolution Surround Audiophile Sound.</p>
+        <p>Our Music Blu-ray is a music-only disc featuring audiophile sound quality and on On-Screen Menu display playable on every (modern) Blu-disc player.</p>
+        <p>We use the original masters to deliver lossless, high-resolution versions of every album. Mastered at 24bit, labelzero.com's Blu-ray Discs deliver the sound the composer and filmmakers heard in the studio when these albums were recorded and mixed.</p>
+        <p>We chose the highest standard as the audio file format for playback: DTS-HD Master Audio in Surround. This is the highest quality format available on Blu-ray, delivering lossless compression in Surround and 24bit for the audiophile listener. This is the same listening experience as in the mix studio.</p>
+        <p>The On-Screen Menu display allows easy selection of titles with your remote. While playing back, the current title is shown on the display. You can also leave the display off for a focused audio-only surround experience - our Blu-ray discs play from start to end, and titles can be selected via your remote.</p>
+        <p>The disc also contains all tracks as high resolution, lossless surround FLAC audio files. Since it comes in the AVCHD format - while authored in the Blu-ray standard, the physical media is actually DVD - it can also be put in your computer's DVD drive to access the data section with audio files. No computer Blu-ray drive needed, just a regular DVD drive works.</p>
+        <p>A PDF booklet is also contained in the data section of the disc.</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="/images/formats_bluray.jpg" width="228" height="320" alt="Formats Bluray" class="img-thumbnail img-responsive">
+      </div>
+    </div>
+  </div>
+</section>
+
+<a class="anchor" id="score"></a>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-7">
+        <h2><i class="fa"></i> Conductor Score</h2>
+        <p class="lead">Hear the Music, Read the Music.</p>
+        <p>The conductor score is an exact copy of the sheet music used to conduct the actual scoring sessions. It's a PDF download version of the large format print used in the recording.</p>
+        <p>Have an insight into the original orchestrations as intended by the composer. Follow every instrument used in the score in its staff, including strings, woodwinds, brass and piano. Read along for studying, or just if you'd like to know how it's been done.</p>
+        <p>Available for our orchestral film scores only.</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="/images/score-thumb.jpg" width="165" height="165" alt="Formats Bluray" class="img-thumbnail img-responsive">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+</div>

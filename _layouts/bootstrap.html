@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="shortcut icon" href="/favicon.ico">
   <title>{{ page.title }}</title>
 
-  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet" href="/vendor/bootstrap-3.2.0/css/bootstrap.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="/vendor/font-awesome-4.2.0/css/font-awesome.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
   <link rel="stylesheet" href="/css/app.css">
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,7 +35,7 @@
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="/#music">Music</a></li>
-          <li><a href="/formats.html">Formats</a></li>
+          <li><a href="/#formats">Formats</a></li>
           <li><a href="http://vimeo.com/labelzero" class="animate">Videos</a></li>
           <li><a href="/licensing.html">Licensing</a></li>
           <li><a href="http://twitter.com/labelzero"><i class="fa fa-lg fa-twitter"></i></a></li>
@@ -57,9 +58,9 @@
         
     </div>
   </footer>
-  
-  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+  <script src="/js/jquery-2.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/vendor/bootstrap-3.2.0/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
   <script src="/js/jquery.lazyload.min.js" type="text/javascript" charset="utf-8"></script>
   <script src="/js/grids.min.js" type="text/javascript" charset="utf-8"></script>
   <script>
@@ -78,6 +79,10 @@
 
     ga('create', 'UA-23115345-3', 'labelzero.com');
     ga('send', 'pageview');
+
+    $('#pricetable h4.pricetitle').responsiveEqualHeightGrid();
+    $('#pricetable div.priceimage').responsiveEqualHeightGrid();
+    $('#pricetable li.pricefiles').responsiveEqualHeightGrid();
 
   </script>
 </body>
